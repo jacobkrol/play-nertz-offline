@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Nertz",
+  "name": "Play Nertz (Offline)",
   "icons": [
     {
       "src": "logo-750.png",
