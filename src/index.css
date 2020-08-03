@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Righteous&family=Noticia+Text:wght@700&display=swap');
+
+body {
+    font-family: 'Kanit', 'Arial Black', Charcoal, Gadget, sans-serif;
+    margin: 0;
+    /* padding-top: 80px; */
+    background-color: #050F12;
+    color: #E0DDD5;
+    /* position: relative; */
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/* font-family: 'Noticia Text', Georgia, 'Palatino Linotype', 'Book Antiqua', Palatino, serif; */
