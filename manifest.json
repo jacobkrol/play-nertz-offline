@@ -1,6 +1,6 @@
 {
   "short_name": "Nertz",
-  "name": "Play Nertz (Offline)",
+  "name": "Play Nertz - Offline",
   "icons": [
     {
       "src": "logo-750.png",
@@ -29,6 +29,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#399567",
-  "background_color": "#F3F3F3"
+  "theme_color": "#F3F3F3",
+  "background_color": "#399567"
 }
