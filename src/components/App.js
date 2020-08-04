@@ -143,8 +143,8 @@ class App extends React.Component {
         }
         const newTimeout = setTimeout(() => {
             //new game -> reset variables
-            const blank0Arr = Array.from(Array(this.state.numCPUs), () => 0);
-            const blank13Arr = Array.from(Array(this.state.numCPUs), () => 13);
+            const blank0Arr = Array.from(Array(Number(this.state.numCPUs)), () => 0);
+            const blank13Arr = Array.from(Array(Number(this.state.numCPUs)), () => 13);
             this.setState({
                 isLocked: false,
                 countdown: undefined,
@@ -152,8 +152,8 @@ class App extends React.Component {
                 lastLake: 0,
                 lastNertz: 13,
                 readyUsers: [],
-                lastCPULake: blank0Arr,
-                lastCPUNertz: blank13Arr
+                lastCPULake: [...blank0Arr],
+                lastCPUNertz: [...blank13Arr]
             });
         }, 4950);
         let timers = [...this.state.countdownTimeout];

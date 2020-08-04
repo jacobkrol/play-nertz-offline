@@ -1,7 +1,7 @@
 #join {
     display: table;
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     text-align: center;
 }
 #join > div {
@@ -12,18 +12,9 @@
     font-size: 1em;
     font-family: 'Kanit', 'Arial Black', Charcoal, Gadget, sans-serif;
 }
-#join-announcement {
+#create-announcement {
     font-size: 24px;
     text-align: center;
-}
-#create-announcement {
-    font-size: 21px;
-    text-align: center;
-}
-#create-disclaimer {
-    font-size: 14px;
-    text-align: center;
-    font-style: italic;
 }
 #join input {
     padding: 4px 8px;

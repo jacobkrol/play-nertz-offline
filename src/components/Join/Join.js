@@ -8,7 +8,7 @@ export default function Join(props) {
         <div id="join">
             <div>
                 <div>
-                    <h2 id="create-announcement">CONFIGURE YOUR GAME</h2>
+                    <p id="create-announcement">CONFIGURE YOUR GAME</p>
                     <div>
                         <input id="create-cpu-count" type="text" placeholder="# CPUs" value={numCPUs} onChange={(evt) => setNumCPUs(evt.target.value.replace(/\D/g,''))} />
                         <select id="create-cpu-difficulty">
