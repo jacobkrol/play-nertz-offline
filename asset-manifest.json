@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/play-nertz-offline/static/css/main.0d41b14a.chunk.css",
-    "main.js": "/play-nertz-offline/static/js/main.9dc1aeeb.chunk.js",
-    "main.js.map": "/play-nertz-offline/static/js/main.9dc1aeeb.chunk.js.map",
+    "main.css": "/play-nertz-offline/static/css/main.32dc5a2b.chunk.css",
+    "main.js": "/play-nertz-offline/static/js/main.3b676b73.chunk.js",
+    "main.js.map": "/play-nertz-offline/static/js/main.3b676b73.chunk.js.map",
     "runtime-main.js": "/play-nertz-offline/static/js/runtime-main.2c52f157.js",
     "runtime-main.js.map": "/play-nertz-offline/static/js/runtime-main.2c52f157.js.map",
     "static/js/2.f1c30793.chunk.js": "/play-nertz-offline/static/js/2.f1c30793.chunk.js",
     "static/js/2.f1c30793.chunk.js.map": "/play-nertz-offline/static/js/2.f1c30793.chunk.js.map",
     "index.html": "/play-nertz-offline/index.html",
-    "precache-manifest.f8273a14658486ff8137a43c8fcdfa8e.js": "/play-nertz-offline/precache-manifest.f8273a14658486ff8137a43c8fcdfa8e.js",
+    "precache-manifest.f0141c57f8572af573748f9b1d8841d7.js": "/play-nertz-offline/precache-manifest.f0141c57f8572af573748f9b1d8841d7.js",
     "service-worker.js": "/play-nertz-offline/service-worker.js",
-    "static/css/main.0d41b14a.chunk.css.map": "/play-nertz-offline/static/css/main.0d41b14a.chunk.css.map",
+    "static/css/main.32dc5a2b.chunk.css.map": "/play-nertz-offline/static/css/main.32dc5a2b.chunk.css.map",
     "static/js/2.f1c30793.chunk.js.LICENSE.txt": "/play-nertz-offline/static/js/2.f1c30793.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c52f157.js",
     "static/js/2.f1c30793.chunk.js",
-    "static/css/main.0d41b14a.chunk.css",
-    "static/js/main.9dc1aeeb.chunk.js"
+    "static/css/main.32dc5a2b.chunk.css",
+    "static/js/main.3b676b73.chunk.js"
   ]
 }
