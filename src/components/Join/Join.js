@@ -16,6 +16,7 @@ export default function Join(props) {
                             <option value="1">EASY</option>
                             <option value="2">MEDIUM</option>
                             <option value="3">HARD</option>
+                            <option value="4">EXPERT</option>
                         </select>
                     </div>
                     <input id="create-button" type="button" onClick={() => {

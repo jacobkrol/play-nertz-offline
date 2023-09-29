@@ -15,6 +15,7 @@ class App extends React.Component {
         isLoggedIn: false, // false
         isRunning: false, // false
         isLocked: true, // true
+        isPaused: false, // false
         numCPUs: 0,
         CPUdiff: 1,
         countdown: undefined,
@@ -165,6 +166,10 @@ class App extends React.Component {
         this.setState({lake: lake});
     }
 
+    handlePause = (isPaused) => {
+        this.setState({ isPaused });
+    }
+
     render() {
         return (
             <>
@@ -177,9 +182,9 @@ class App extends React.Component {
                                     ? <Countdown text={this.state.countdown} />
                                     : <Scoreboard scoreUpdate={this.state.scoreUpdate} scores={this.state.scores} handleReady={this.handleReady} gameCount={this.state.gameCount} />
                                 : <>
-                                    <Game lake={this.state.lake} newLake={this.newLake} name={this.state.name} updateScore={this.updateScore} updateNertz={this.updateNertz} />
+                                    <Game lake={this.state.lake} newLake={this.newLake} name={this.state.name} updateScore={this.updateScore} updateNertz={this.updateNertz} handlePause={this.handlePause} isPaused={this.state.isPaused} />
                                     {[...Array(Number(this.state.numCPUs))].map((n,i) =>
-                                            <CPUGame id={i} key={i} get_lake={() => [...this.state.lake]} newLake={this.newLake} updateCPUScore={this.updateCPUScore} updateCPUNertz={this.updateCPUNertz} difficulty={this.state.CPUdiff} />
+                                            <CPUGame id={i} key={i} get_lake={() => [...this.state.lake]} newLake={this.newLake} updateCPUScore={this.updateCPUScore} updateCPUNertz={this.updateCPUNertz} difficulty={this.state.CPUdiff} isPaused={this.state.isPaused} />
                                      )}
                                   </>
                             : <Lobby handleReady={this.handleReady} users={this.state.users} />
